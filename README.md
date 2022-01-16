@@ -1,4 +1,4 @@
-#🔖 Scrimba-CSS
+# 🔖 Scrimba-CSS
 👨‍💻 Free Courses from Scrimba.com ~
 <br>
 👀 Learn UI design fundamentals - 1hr
