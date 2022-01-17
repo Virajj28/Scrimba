@@ -5,6 +5,6 @@
 <br>
 ✍️ Learn CSS Variables - 30mins
 <br>
-🍫 Learn CSS Grid - 30mins 
+🍫 Learn CSS Grid - 30mins {High Priority}
 <br>
-🧮 Learn Flexbox - 51mins
+🧮 Learn Flexbox - 51mins {High Priority}
