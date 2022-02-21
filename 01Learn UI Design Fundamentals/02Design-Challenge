@@ -1,0 +1,27 @@
+=> A cards to manage w/ code and make it look effective as UI.
+
+.container {
+    width: 90%;
+} //right
+
+.card {
+    background: #2C3031;
+    padding: 1.5em;
+} //right
+
+p.date {
+    text-transform: uppercase;
+    font-size: .75em;
+    letter-spacing: .1em;
+    color: #7A8587;
+    margin-bottom: .4em;
+}
+
+h3 {
+    margin: 0 0 .3em; 
+    color: #B6EAFF;
+    font-size: 1.8em;
+}
+
+# new learning about margin: 0 0 0.3em;
+value if text-align-center,left,right doesn;t works
