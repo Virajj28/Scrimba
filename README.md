@@ -1,10 +1,10 @@
-#🔖 Scrimba-CSS
+# 🔖 Scrimba-CSS
 👨‍💻 Free Courses from Scrimba.com ~
 <br>
-👀 Learn UI design fundamentals - 1hr
+👀 Learn UI design fundamentals - 1hr {Covered most}
 <br>
 ✍️ Learn CSS Variables - 30mins
 <br>
-🍫 Learn CSS Grid - 30mins
+🍫 Learn CSS Grid - 30mins {High Priority}
 <br>
-🧮 Learn Flexbox - 51mins
+🧮 Learn Flexbox - 51mins {High Priority}
