@@ -35,16 +35,34 @@ function increment () {
 // }
 
 // Improve the msg w/ string concatenation
+// let welcomeEl = document.getElementById("welcome-el")
 
-let welcomeEl = document.getElementById("welcome-el")
+// let name = "Per Harald Borgen"
+// let greeting = "Welcome back "
 
-let name = "Per Harald Borgen"
-let greeting = "Welcome back "
+// welcomeEl.innerText = greeting + name
 
-welcomeEl.innerText = greeting + name
+// // Add an emoji to the end! 👋
+// // WRITE YOUR CODE BELOW HERE
+// // HINT: count = count + 1
 
-// Add an emoji to the end! 👋
-// WRITE YOUR CODE BELOW HERE
-// HINT: count = count + 1
+// welcomeEl.innerText += "👋"
 
-welcomeEl.innerText += "👋"
+
+// Creating save feat with innerText cons
+let saveEl = document.getElementById("save-el")
+let countEl = document.getElementById("count-el")
+let count = 0
+
+function increment() {
+    count += 1
+    countEl.innerText = count
+}
+
+function save() {
+    let countStr = count + " - "
+    saveEl.textContent += countStr
+}
+
+// Google:
+// innerText alternative mdn
