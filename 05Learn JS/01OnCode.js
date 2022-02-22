@@ -56,12 +56,16 @@ let count = 0
 
 function increment() {
     count += 1
-    countEl.innerText = count
+    countEl.textContent = count
 }
 
 function save() {
     let countStr = count + " - "
     saveEl.textContent += countStr
+
+    // feat of making count state to 0
+    countEl.textContent
+    count = 0
 }
 
 // Google:
