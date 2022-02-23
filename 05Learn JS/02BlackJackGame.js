@@ -30,3 +30,12 @@ console.log(3 < 0)    // false
 console.log(3 >= 3)   // true
 console.log(11 <= 11) // true
 console.log(3 <= 2)   // false
+
+// // Add variable message and pass in place of functions => console.log and then invoking at last in console.log
+let message = ''
+
+fnctn {
+    message = 'Do you want to draw a new card? 🙂'
+} ....
+
+console.log(message)
