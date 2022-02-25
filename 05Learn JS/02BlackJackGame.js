@@ -42,5 +42,6 @@ console.log(3 <= 2)   // false
 
 
 // // Query selector 
-let sumEl = document.querySelector("#sum-el")
-sumEl.textContent + = sum;
+// let sumEl = document.querySelector("#sum-el")
+// sumEl.textContent + = sum;
+// <<For id we use # , class use . >>
