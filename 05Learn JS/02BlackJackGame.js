@@ -45,3 +45,12 @@ console.log(3 <= 2)   // false
 // let sumEl = document.querySelector("#sum-el")
 // sumEl.textContent + = sum;
 // <<For id we use # , class use . >>
+
+
+
+//// Invoking when card is click and add hardcode value
+function newCard() {
+    let card= 6
+    sum += card
+    startGame()
+}
