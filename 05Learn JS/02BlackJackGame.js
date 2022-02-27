@@ -68,3 +68,16 @@ let experience = ["CEO at Scrimba", "Frontend developer at Xeneta", "People coun
 console.log(experience[1])
 console.log(experience[2])
 console.log(experience[0])
+
+
+/// Adding & removing items from arrays 
+let messages = [
+    "Hey, how's it going?",        
+    "I'm great, thank you! How about you?",
+    "All good. Been working on my portfolio lately."
+]
+
+let newMessage = "Same here!"
+
+messages.push(newMessage)
+console.log(messages)
