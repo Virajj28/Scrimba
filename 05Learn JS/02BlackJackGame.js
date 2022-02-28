@@ -81,3 +81,6 @@ let newMessage = "Same here!"
 
 messages.push(newMessage)
 console.log(messages)
+
+
+// // Loops & Arrays
