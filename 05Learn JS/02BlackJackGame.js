@@ -84,6 +84,10 @@ console.log(messages)
 
 
 // // Loops & Arrays
+for (let i = 10; i < 101; i += 10) {
+    console.log(i)
+}
+// you always forget defining variable in loop
 
 
 // // Return values in funcs
