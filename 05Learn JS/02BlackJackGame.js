@@ -87,3 +87,6 @@ console.log(messages)
 
 
 // // Return values in funcs
+
+
+// // Math random concept
