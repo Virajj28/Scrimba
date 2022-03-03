@@ -132,3 +132,11 @@ console.log(fastestRace)
 
 // What does Math.random() do?
 // Your answer: it generates a random number between 0 and 1 (not inclusive of 1)
+
+let flooredNumber = Math.floor(3.45632)
+
+console.log(flooredNumber)
+
+// What does Math.floor() do to positive numbers?
+
+// Your answer: it removes the decimals
