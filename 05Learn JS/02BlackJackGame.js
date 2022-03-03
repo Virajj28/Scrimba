@@ -140,3 +140,8 @@ console.log(flooredNumber)
 // What does Math.floor() do to positive numbers?
 
 // Your answer: it removes the decimals
+
+//// Using both math.random math.floor
+function getRandomCard() {
+    return Math.floor( Math.random()*13 ) + 1
+}
