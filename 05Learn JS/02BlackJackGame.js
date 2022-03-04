@@ -172,3 +172,11 @@ function startGame() {
     // Re-assign the cards and sum variables so that the game can start
     renderGame()
 }
+
+
+//// The Logical Operator
+
+// Nested if else replaced w/ ampersand
+if (hasCompletedCourse === true && givesCertificate === true) {
+    generateCertificate()
+}
