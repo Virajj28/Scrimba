@@ -180,3 +180,11 @@ function startGame() {
 if (hasCompletedCourse === true && givesCertificate === true) {
     generateCertificate()
 }
+
+// OR operator
+let likesDocumentaries = false
+let likesStartups = false
+
+if (likesDocumentaries === true || likesStartups === true) {
+    recommendMovie()
+}
