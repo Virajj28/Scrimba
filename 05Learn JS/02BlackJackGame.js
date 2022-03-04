@@ -204,3 +204,15 @@ console.log(airbnb.hyd)
 console.log(airbnb.behave)
 console.log(airbnb.peep)
 console.log(airbnb.msg)
+
+//// Methods in objects
+let player = {
+    name: "Per",
+    chips: 200,
+    sayHello: function() {
+        console.log("Heisann!")
+    }
+}
+
+console.log()
+player.sayHello()
