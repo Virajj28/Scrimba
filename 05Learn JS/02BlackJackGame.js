@@ -188,3 +188,19 @@ let likesStartups = false
 if (likesDocumentaries === true || likesStartups === true) {
     recommendMovie()
 }
+
+
+//// Objects => key value pairs
+// Objects - store data in-depth - composite / complex data type
+
+let airbnb = {
+    hyd :true,
+    behave:'lol',
+    peep:48,
+    msg: ['hey', 'goodluck']
+}
+
+console.log(airbnb.hyd)
+console.log(airbnb.behave)
+console.log(airbnb.peep)
+console.log(airbnb.msg)
