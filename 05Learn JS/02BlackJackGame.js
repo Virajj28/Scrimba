@@ -145,3 +145,17 @@ console.log(flooredNumber)
 function getRandomCard() {
     return Math.floor( Math.random()*13 ) + 1
 }
+
+///// Completing getRandomNumber function
+function getRandomCard() {
+    // if 1     -> return 11
+    // if 11-13 -> return 10
+    let randomNumer = Math.floor( Math.random()*13 ) + 1
+    if (randomNumer > 10) {
+        return 10
+    } else if (randomNumer === 1) {
+        return 11
+    } else {
+        return randomNumer
+    }
+} 
