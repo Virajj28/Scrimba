@@ -216,3 +216,20 @@ let player = {
 
 console.log()
 player.sayHello()
+
+
+///// Shift & Unshift in Practice time pt2
+let largeCountries = ["Tuvalu","India","USA","Indonesia","Monaco"]
+
+// You need to help me fixup the largeCountries array so that 
+// China and Pakistan are added back into their respective places
+
+// Use push() & pop() and their counterparts unshift() & shift()
+// unshift adds to the beginning of the array
+// shift removes from the beginning of the array
+
+largeCountries.shift();
+largeCountries.unshift('China');
+largeCountries.pop();
+largeCountries.push('Pakistan');
+console.log(largeCountries)
