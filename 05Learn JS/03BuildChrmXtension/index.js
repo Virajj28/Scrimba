@@ -21,7 +21,8 @@ inputBtn.addEventListener("click", function() {
     // instead of the hard-coded "www.awesomeleads.com" value
     // Google -> "get value from input field javascript"
     myLeads.push(inputEl.value)
-    console.log(myLeads)
+    // 2. Call the renderLeads() function
+    renderLeads()
 })
 
 
@@ -51,13 +52,16 @@ inputBtn.addEventListener("click", function() {
 ///// Improving performance
 // 1. Create a variable, listItems, to hold all the HTML for the list items
 // Assign it to an empty string to begin with
-let listItems = ""
-for (let i = 0; i < myLeads.length; i++) {
-    // 2. Add the item to the listItems variable instead of the ulEl.innerHTML
-    listItems += "<li>" + myLeads[i] + "</li>"
+// Render fnc when button is hit
+function renderLeads() {
+    let listItems = ""
+    for (let i = 0; i < myLeads.length; i++) {
+        // 2. Add the item to the listItems variable instead of the ulEl.innerHTML
+        listItems += "<li>" + myLeads[i] + "</li>"
+    }
+    // 3. Render the listItems inside the unordered list using ulEl.innerHTML
+    ulEl.innerHTML = listItems
 }
-// 3. Render the listItems inside the unordered list using ulEl.innerHTML
-ulEl.innerHTML = listItems
 
 
 // // Use .innerHTML to render a Buy! button inside the div container
@@ -66,11 +70,13 @@ ulEl.innerHTML = listItems
 // container.innerHTML = "<button>Buy!</button>"
 
 
-container.innerHTML = "<button onclick='buy()'>Buy!</button>"
+// container.innerHTML = "<button onclick='buy()'>Buy!</button>"
 
-// When clicked, render a paragraph under the button (in the container)
-// that says "Thank you for buying!"
+// // When clicked, render a paragraph under the button (in the container)
+// // that says "Thank you for buying!"
 
-function buy(){
-    container.innerHTML += "<p>Thank you for buying!</p>"
-}
+// function buy(){
+//     container.innerHTML += "<p>Thank you for buying!</p>"
+// }
+
+
