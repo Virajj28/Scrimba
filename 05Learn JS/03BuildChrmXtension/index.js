@@ -32,10 +32,20 @@ inputBtn.addEventListener("click", function() {
 
 
 //// Rendering <li> with innerHTML
-for (let i = 0; i < myLeads.length; i++) {
-    ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
-}
+// for (let i = 0; i < myLeads.length; i++) {
+//     ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
+// }
 
+// Let's try a different method!
+for (let i = 0; i < myLeads.length; i++) {
+    // ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
+    // create element
+    // set text content
+    // append to ul
+    const li = document.createElement("li")
+    li.textContent = myLeads [i]
+    ulEl.append(li)
+}
 
 // // Use .innerHTML to render a Buy! button inside the div container
 // const container = document.getElementById("container")
