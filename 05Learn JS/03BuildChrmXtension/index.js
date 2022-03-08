@@ -36,16 +36,29 @@ inputBtn.addEventListener("click", function() {
 //     ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
 // }
 
-// Let's try a different method!
+//// Let's try a different method!
+// for (let i = 0; i < myLeads.length; i++) {
+//     // ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
+//     // create element
+//     // set text content
+//     // append to ul
+//     const li = document.createElement("li")
+//     li.textContent = myLeads [i]
+//     ulEl.append(li)
+// }
+
+
+///// Improving performance
+// 1. Create a variable, listItems, to hold all the HTML for the list items
+// Assign it to an empty string to begin with
+let listItems = ""
 for (let i = 0; i < myLeads.length; i++) {
-    // ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
-    // create element
-    // set text content
-    // append to ul
-    const li = document.createElement("li")
-    li.textContent = myLeads [i]
-    ulEl.append(li)
+    // 2. Add the item to the listItems variable instead of the ulEl.innerHTML
+    listItems += "<li>" + myLeads[i] + "</li>"
 }
+// 3. Render the listItems inside the unordered list using ulEl.innerHTML
+ulEl.innerHTML = listItems
+
 
 // // Use .innerHTML to render a Buy! button inside the div container
 // const container = document.getElementById("container")
