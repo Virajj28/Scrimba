@@ -21,6 +21,11 @@ inputBtn.addEventListener("click", function() {
     // instead of the hard-coded "www.awesomeleads.com" value
     // Google -> "get value from input field javascript"
     myLeads.push(inputEl.value)
+
+    // Clear out the input field after the value is pushed 
+    // Also another methods onfocus=this.value='' 
+    inputEl.value = ""
+
     // 2. Call the renderLeads() function
     renderLeads()
 })
