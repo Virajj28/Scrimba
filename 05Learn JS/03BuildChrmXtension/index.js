@@ -37,3 +37,8 @@ for (let i = 0; i < myLeads.length; i++) {
 }
 
 
+// Use .innerHTML to render a Buy! button inside the div container
+const container = document.getElementById("container")
+
+container.innerHTML = "<button>Buy!</button>"
+
