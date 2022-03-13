@@ -1,4 +1,4 @@
-# 🔖 Scrimba-CSS 
+# 🔖 Scrimba Courses
 https://scrimba.com/allcourses
 👨‍💻 Free Courses from Scrimba.com ~
 <br>
