@@ -19,7 +19,7 @@ let fullPrice = basePrice - discount + shippingCost
 console.log("Total cost: " + fullPrice + ". It will arrive in " + shippingTime)
 
 
-# Local Storage 
+## Local Storage 
 // 1. Save a key-value pair in localStorage
 // 2. Refresh the page. Get the value and log it to the console
 // 3. Clear localStorage
