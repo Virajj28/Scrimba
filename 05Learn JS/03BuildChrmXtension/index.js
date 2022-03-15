@@ -104,3 +104,15 @@ myLeads.push("www.lead2.com")
 myLeads = JSON.stringify(myLeads)
 // 4. Console.log the string using typeof to verify that it's a string
 console.log(typeof myLeads)
+
+
+///// Save the leads to localstorage
+myLeads.push(inputEl.value)
+inputEl.value = ""
+// Save the myLeads array to localStorage 
+// PS: remember JSON.stringify()
+localStorage.setItem("myLeads", JSON.stringify(myLeads) )
+renderLeads()
+
+// To verify that it works:
+console.log( localStorage.getItem("myLeads") )
