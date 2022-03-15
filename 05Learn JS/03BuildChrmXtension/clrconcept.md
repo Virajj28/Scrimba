@@ -29,3 +29,10 @@ console.log("Total cost: " + fullPrice + ". It will arrive in " + shippingTime)
 // localStorage.getItem(key)
 // localStorage.clear()
 // PS: both key and value need to be strings
+
+localStorage.setItem("myName", "Per Harald Borgen")
+
+let name = localStorage.getItem("myName")
+console.log(name)
+
+localStorage.clear()
