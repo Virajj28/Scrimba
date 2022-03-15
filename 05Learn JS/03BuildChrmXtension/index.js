@@ -116,3 +116,14 @@ renderLeads()
 
 // To verify that it works:
 console.log( localStorage.getItem("myLeads") )
+
+
+
+
+///// Get the leads from the localStorage - PS: JSON.parse()
+// Store it in a variable, leadsFromLocalStorage
+// Log out the variable
+localStorage.clear()
+let leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") )
+
+console.log(leadsFromLocalStorage)
