@@ -36,3 +36,12 @@ let name = localStorage.getItem("myName")
 console.log(name)
 
 localStorage.clear()
+
+
+//// Truthy or Falsy Value
+console.log(  Boolean("")   ) // false
+console.log(  Boolean("0")  ) // true
+console.log(  Boolean(100)  ) // true
+console.log(  Boolean(null) ) // false
+console.log(  Boolean([0])  ) // true
+console.log(  Boolean(-0)   ) // false
