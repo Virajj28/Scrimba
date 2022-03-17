@@ -14,7 +14,8 @@ const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 // 2. Grab the unordered list and store it in a const variable called ulEl
 const ulEl = document.getElementById("ul-el")
-
+// 1. Store the delete button in a deleteBtn variable
+const deleteBtn = document.getElementById("delete-btn")
 
 inputBtn.addEventListener("click", function() {
     // Push the value from the inputEl into the myLeads array 
@@ -135,3 +136,14 @@ if (leadsFromLocalStorage) {
     myLeads = leadsFromLocalStorage
     renderLeads()
 }
+
+//// Add Event Listener onDblClick
+
+// 2. Listen for double clicks on the delete button (google it!)
+// 3. When clicked, clear localStorage, myLeads, and the DOM
+
+deleteBtn.addEventListener("dblclick", function() {
+    localStorage.clear()
+    myLeads = []
+    renderLeads()
+})
