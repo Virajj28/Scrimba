@@ -24,6 +24,11 @@ button {
     font-weight: bold;
 }
 
+#delete-btn {
+    background: white;
+    color: #5f9341;
+}
+
 
 /* Render button */
 #container {
