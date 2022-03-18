@@ -69,3 +69,14 @@ console.log(add(1,4));
 //// Arguments VS Paramters
 
 Arguments are outside the functions and Parameters are inside the functions.
+
+//// Passing arr as arguments
+// Create a function, getFirst(arr), that returns the first item in the array
+
+function getFirst(arr) {
+    return arr[0]
+}
+
+let firstCard = getFirst([10, 2, 5])
+
+console.log(firstCard)
