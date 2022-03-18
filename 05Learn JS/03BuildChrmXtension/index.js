@@ -27,8 +27,9 @@ inputBtn.addEventListener("click", function() {
     // Also another methods onfocus=this.value='' 
     inputEl.value = ""
 
+    localStorage.setItem("myLeads", JSON.stringify(myLeads) )
     // 2. Call the renderLeads() function
-    renderLeads()
+    render(myLeads)
 })
 
 
@@ -59,17 +60,17 @@ inputBtn.addEventListener("click", function() {
 // 1. Create a variable, listItems, to hold all the HTML for the list items
 // Assign it to an empty string to begin with
 // Render fnc when button is hit
-function renderLeads() {
+function render(leads) {
     let listItems = ""
-    for (let i = 0; i < myLeads.length; i++) {
+    for (let i = 0; i < leads.length; i++) {
         // // 2. Add the item to the listItems variable instead of the ulEl.innerHTML
         // listItems += "<li>" + myLeads[i] + "</li>"
 
         // listItems += "<li><a target='_blank' href='" + myLeads[i] + "'>" + myLeads[i] + "</a></li>"
         listItems += 
         `<li>
-            <a target='_blank' href='${myLeads[i]}'>
-                ${myLeads[i]}
+            <a target='_blank' href='${leads[i]}'>
+                ${leads[i]}
             </a>
         </li>`
     }
@@ -145,5 +146,5 @@ if (leadsFromLocalStorage) {
 deleteBtn.addEventListener("dblclick", function() {
     localStorage.clear()
     myLeads = []
-    renderLeads()
+    render(myLeads)
 })
