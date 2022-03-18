@@ -45,3 +45,15 @@ console.log(  Boolean(100)  ) // true
 console.log(  Boolean(null) ) // false
 console.log(  Boolean([0])  ) // true
 console.log(  Boolean(-0)   ) // false
+
+
+//// Multiple parameters
+const welcomeEl = document.getElementById("welcome-el")
+
+// Add the ability to choose the emoji as well!
+
+function greetUser(greeting, name, emoji) {
+    welcomeEl.textContent = `${greeting}, ${name} ${emoji}`
+}
+
+greetUser("Howdy", "James", "🔥")
