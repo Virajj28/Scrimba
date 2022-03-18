@@ -65,3 +65,7 @@ function add (num1,num2){
 }
 
 console.log(add(1,4));
+
+//// Arguments VS Paramters
+
+Arguments are outside the functions and Parameters are inside the functions.
