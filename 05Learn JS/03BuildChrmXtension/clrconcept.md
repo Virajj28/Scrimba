@@ -57,3 +57,11 @@ function greetUser(greeting, name, emoji) {
 }
 
 greetUser("Howdy", "James", "🔥")
+
+
+//// Numbers as function params
+function add (num1,num2){
+    return num1+num2;
+}
+
+console.log(add(1,4));
