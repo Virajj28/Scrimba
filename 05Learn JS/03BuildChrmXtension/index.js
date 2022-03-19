@@ -16,6 +16,7 @@ const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 // 1. Store the delete button in a deleteBtn variable
 const deleteBtn = document.getElementById("delete-btn")
+const tabBtn = document.getElementById("tab-btn")
 
 inputBtn.addEventListener("click", function() {
     // Push the value from the inputEl into the myLeads array 
@@ -120,8 +121,6 @@ renderLeads()
 console.log( localStorage.getItem("myLeads") )
 
 
-
-
 ///// Get the leads from the localStorage - PS: JSON.parse()
 // Store it in a variable, leadsFromLocalStorage
 // Log out the variable
@@ -147,4 +146,15 @@ deleteBtn.addEventListener("dblclick", function() {
     localStorage.clear()
     myLeads = []
     render(myLeads)
+})
+
+
+////
+const tabs = [
+    {url: "https://www.linkedin.com/"}
+]
+
+// 2. Listen for clicks on tabBtn. Log Per's LinkedIn URL to the console
+tabBtn.addEventListener("click", function(){
+    console.log(tabs[0].url)
 })
