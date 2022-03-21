@@ -22,3 +22,6 @@ function printManyTimes(str) {
 
 }
 printManyTimes("freeCodeCamp");
+
+### Prevent Object Mutation
+  Object.freeze(MATH_CONSTANTS);
