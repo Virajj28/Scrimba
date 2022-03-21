@@ -41,3 +41,22 @@ const increment = (function() {
 })();
 console.log(increment(5, 2)); 
 console.log(increment(5)); 
+
+
+//// Using rest operator w/ fncn param
+const sum = (function(){
+  return function sum(x,y,z) {
+    const args = (x,y,z);
+    return args.reduce((a,b) => a+b , 0);
+  };
+})();
+console.log(sum(1,2,3));
+
+////////////Instead use rest operator
+
+const sum = (function() {
+  return function sum(...args) {
+    return args.reduce((a, b) => a + b, 0);
+  };
+})();
+console.log(sum(1, 2, 3, 4));
