@@ -31,3 +31,13 @@ const squareList = (arr) => {
 
 const squaredIntegers = squareList(realNumberArray);
 console.log(squaredIntegers);
+
+
+/// Set default parameters for functions
+const increment = (function() {
+  return function increment(number, value=1) {
+    return number + value;
+  };
+})();
+console.log(increment(5, 2)); 
+console.log(increment(5)); 
