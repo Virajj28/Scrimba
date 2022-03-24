@@ -179,3 +179,8 @@ function makeList(arr) {
 const resultDisplayArray = makeList(result.failure);
 
 console.log(resultDisplayArray)
+
+
+//// Write concise object literal using simple fields
+const createPerson = (name, age, gender) => ( { name, age, gender });
+console.log(createPerson("Zodiac Hasbro", 56, "male")); 
