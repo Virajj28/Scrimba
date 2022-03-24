@@ -184,3 +184,27 @@ console.log(resultDisplayArray)
 //// Write concise object literal using simple fields
 const createPerson = (name, age, gender) => ( { name, age, gender });
 console.log(createPerson("Zodiac Hasbro", 56, "male")); 
+
+
+//// Use class syntax to define a constructor function
+class SpaceShuttle {
+  constructor(targetPlanet){
+    this.targetPlanet = targetPlanet;
+  }
+}
+var zeus = new SpaceShuttle('Jupiter');
+
+console.log(zeus.targetPlanet)
+
+//2
+function makeClass() {
+  class Vegetable {
+    constructor(name){
+      this.name = name;
+    }
+  }
+  return Vegetable;
+}
+const Vegetable = makeClass();
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); 
