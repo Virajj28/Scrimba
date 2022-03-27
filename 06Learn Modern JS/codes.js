@@ -280,3 +280,9 @@ import * as capitalizeStrings from "capitalize_strings";
 
 //// Create an export fallback w/ export default
 export default function subtract(x,y) {return x - y;}
+
+
+//// Importing a default export
+import subtract from "math_functions";
+
+subtract(7,4);
