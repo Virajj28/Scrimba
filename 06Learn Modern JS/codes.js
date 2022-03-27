@@ -260,3 +260,15 @@ import { capitalizeString } from "./string_function"
 const cap = capitalizeString("hello!");
 
 console.log(cap);
+
+
+//// Exporting to reuse code
+const capitalizeString = (string) => {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+export { capitalizeString }; // Exporting a function
+
+// Exporting a variable
+export const foo = "bar";
+export const bar = "foo";
