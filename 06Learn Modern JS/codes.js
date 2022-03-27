@@ -247,3 +247,16 @@ let temp = thermos.temperature;
 thermos.temperature = 26;
 temp = thermos.temperature; 
 console.log(temp);
+
+
+
+//// Learning import and getting difference betn import and require
+
+// => In string_functions.js code 
+export const capitalizeString = str => str.toUpperCase()
+
+// => In indexedDB.js code
+import { capitalizeString } from "./string_function"
+const cap = capitalizeString("hello!");
+
+console.log(cap);
