@@ -272,3 +272,7 @@ export { capitalizeString }; // Exporting a function
 // Exporting a variable
 export const foo = "bar";
 export const bar = "foo";
+
+
+//// Use * to import everything from a file
+import * as capitalizeStrings from "capitalize_strings";
