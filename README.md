@@ -11,6 +11,9 @@ https://scrimba.com/allcourses
 🧮 Learn Flexbox - 51mins { Priority}  //Couldn't invest anymore time
 <br>
 👤 Learn Javascript [https://scrimba.com/learn/learnjavascript] {High Priority}
+### From 19--27-03-2022,  
 <br>
-👥 Modern JS [https://scrimba.com/learn/es6] {High Priority}
+👥 Modern JS [https://scrimba.com/learn/es6] {High Priority}  
+### From 20--28-03-2022, 12:18 am   
+<br>
 
