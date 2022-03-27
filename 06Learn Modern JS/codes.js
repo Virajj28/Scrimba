@@ -276,3 +276,7 @@ export const bar = "foo";
 
 //// Use * to import everything from a file
 import * as capitalizeStrings from "capitalize_strings";
+
+
+//// Create an export fallback w/ export default
+export default function subtract(x,y) {return x - y;}
