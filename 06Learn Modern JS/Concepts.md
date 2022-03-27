@@ -25,3 +25,6 @@ printManyTimes("freeCodeCamp");
 
 ### Prevent Object Mutation
   Object.freeze(MATH_CONSTANTS);
+
+
+## Congratulations on completing this Modern ES6 course
