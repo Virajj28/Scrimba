@@ -11,16 +11,24 @@ body {
 .heading {
     display: flex;
     justify-content: center;
-    color: darkblue;
+    color: green;
     font-size: 15px;
     /* To select on by one for transitions and also change for different timings*/
-    transition: color 0.5s, font-size 1s;
+    /* transition: color 0.5s, font-size 1s; */
     /* or you can select for all */
     /* transition: all 2s; */
+
+    /* Custmozing transitions */
+    transition-property: font-size; /* property should mention with duration */
+    transition-duration: 0.5s;
+
+    transition-delay: 1s;
+    transition-timing-function: ease-in;
 }
 
 /* Pseudo selector */
 .heading:hover {
-    color: brown;
+    color: red;
     font-size: 20px;
+    letter-spacing: 5px;
 }
