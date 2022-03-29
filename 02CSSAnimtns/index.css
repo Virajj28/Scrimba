@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+    font-size: 15px;
+    /* To select on by one for transitions and also change for different timings*/
+    transition: color 0.5s, font-size 1s;
+    /* or you can select for all */
+    /* transition: all 2s; */
+}
+
+/* Pseudo selector */
+.heading:hover {
+    color: brown;
+    font-size: 20px;
+}
