@@ -19,11 +19,14 @@ body {
     /* transition: all 2s; */
 
     /* Custmozing transitions */
-    transition-property: font-size; /* property should mention with duration */
-    transition-duration: 0.5s;
+    /* transition-property: font-size; property should mention with duration */
+    /* transition-duration: 0.5s;
 
     transition-delay: 1s;
-    transition-timing-function: ease-in;
+    transition-timing-function: ease-in; */
+
+    /* transiton: property duration timing-funtion delay */
+    transition: all 0.5s ease 1s;
 }
 
 /* Pseudo selector */
