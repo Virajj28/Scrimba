@@ -90,6 +90,8 @@ body {
 
 @keyframes transform {
     100% {
-        transform: scale(2,1);
+        /* transform: scale(2,1); */
+        /* transform: translate(-10px, 30px) */
+        transform: translate(50%, 25%);
     }
 }
