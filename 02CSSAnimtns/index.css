@@ -99,3 +99,18 @@ body {
         transform: skew(0deg, 50deg);
     }
 }
+
+
+/* Prefixes */
+/* :-webkit-transition { */
+    /* For Chrome, Safari, Opera */
+/* } */
+/* -ms-transtion { */
+    /* For IE */
+/* } */
+/* -moz-transition { */
+    /* For Firefox */
+/* } */
+/* -o-transition { */
+    /* For Opera */
+/* } */
