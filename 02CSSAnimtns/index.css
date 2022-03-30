@@ -114,3 +114,15 @@ body {
 /* -o-transition { */
     /* For Opera */
 /* } */
+
+
+/* CSS Variables */
+/* Creating in :root */
+/* :root {
+    --main-color: red;
+    --main-font-size: 20px;
+} */
+/* .box{
+    background: var(--main-color);
+    font-size: var(--main-font-size);
+} */
