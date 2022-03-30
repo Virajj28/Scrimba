@@ -92,6 +92,8 @@ body {
     100% {
         /* transform: scale(2,1); */
         /* transform: translate(-10px, 30px) */
-        transform: translate(50%, 25%);
+        /* transform: translate(50%, 25%); */
+
+        transform: rotate(-180deg);
     }
 }
