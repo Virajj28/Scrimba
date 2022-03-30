@@ -94,6 +94,8 @@ body {
         /* transform: translate(-10px, 30px) */
         /* transform: translate(50%, 25%); */
 
-        transform: rotate(-180deg);
+        /* transform: rotate(-180deg); */
+
+        transform: skew(0deg, 50deg);
     }
 }
