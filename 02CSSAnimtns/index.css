@@ -126,3 +126,10 @@ body {
     background: var(--main-color);
     font-size: var(--main-font-size);
 } */
+
+
+/* Custom timing functions */
+/* cubic beizer can also visit cubic-beizer.com */
+/* EG .box{
+    animation-timing-function: cubic-beizer(0.5, 0.5, 0.5, 0.5);
+} */
