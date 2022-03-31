@@ -14,7 +14,7 @@ https://scrimba.com/allcourses
   From 28--30-03-2022, 2:00 pm
 <br>
 🎨 Learn Bootstrap
-  From 30--00-03-2022, 
+ From 30--00-03-2022, 
 <br>
 👤 Learn Javascript [https://scrimba.com/learn/learnjavascript] {High Priority}
  From 19--27-03-2022 
