@@ -1,7 +1,18 @@
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
-    /* flex-direction: column; */
-    flex-direction: row;
 
-  }
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+
+    /* flex-start flex-end center space-around
+    space-between space-evenly */
+    justify-content: flex-end;
+}
+
+.home {
+    margin-right: auto;
+    /* margin-left:auto */
+}
+
+
