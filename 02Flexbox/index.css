@@ -7,7 +7,11 @@
 
     /* flex-start flex-end center space-around
     space-between space-evenly */
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
+
+    /* Align items */
+    height: 100%;
+    align-items: center;
 }
 
 .home {
@@ -16,11 +20,21 @@
 }
 
 /* Flex property */
-.home {
+/* .home {
     flex: 1;
   }
   
   .logout {
     flex: 1;
-  }
+  } */
+
+
+/* Align items */
+.logout {
+align-self: flex-start;
+}
+
+.home {
+align-self: flex-end;
+}
 

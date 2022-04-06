@@ -8,6 +8,7 @@
   html, body {
     background-color: #ffeead;
     margin: 10px;
+    height: 100%;
   }
   
   .container > div:nth-child(1) {
