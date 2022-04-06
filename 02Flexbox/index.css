@@ -15,4 +15,12 @@
     /* margin-left:auto */
 }
 
+/* Flex property */
+.home {
+    flex: 1;
+  }
+  
+  .logout {
+    flex: 1;
+  }
 
