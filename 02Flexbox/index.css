@@ -15,11 +15,20 @@
 
 
     /* Flex direction column */
-    flex-direction: column;
+    /* flex-direction: column;
     justify-content: flex-end;
     height: 100%;
-    align-items: flex-end;
+    align-items: flex-end; */
 
+
+    /* Flex-wrap */
+    flex-wrap: wrap;
+    /* flex-wrap: no-wrap */
+}
+
+/* Flex-wrap */
+.container > div {
+  width: 300px;
 }
 
 .home {
