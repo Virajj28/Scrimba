@@ -31,10 +31,10 @@
   width: 300px;
 }
 
-.home {
+/* .home {
     margin-right: auto;
-    /* margin-left:auto */
-}
+    margin-left:auto
+} */
 
 /* Flex property */
 /* .home {
@@ -47,11 +47,35 @@
 
 
 /* Align items */
-.logout {
+/* .logout {
 align-self: flex-start;
 }
 
 .home {
 align-self: flex-end;
+} */
+
+
+/* Flex grow,shrink,basis */
+.home {
+  /* flex: 1 1 0 is down as*/
+  /* flex: 1;  */
+
+  flex: 1 1 200px;
+
+  /* same as
+  flex-grow: 1
+  flex-shrink: 1
+  flez-basis:200px
+   */
 }
 
+.logout {
+  flex: 10 1 200px;
+
+  /* same as
+  flex-grow: 10
+  flex-shrink: 1
+  flez-basis:200px
+   */
+}
