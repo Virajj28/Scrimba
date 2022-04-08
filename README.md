@@ -8,7 +8,7 @@ https://scrimba.com/allcourses
 <br>
 🍫 Learn CSS Grid - 30mins { Priority} //Couldn't invest anymore time
 <br>
-🧮 Learn Flexbox - 51mins (Do it 05Apr-00) { Priority}  //Couldn't invest anymore time
+🧮 Learn Flexbox - 51mins (Do it 05Apr-07Apr) { Priority}
 <br>
 🎮 Learn CSS Animations - 2hrs 20mins 
  From 28--30-03-2022, 2:00 pm
