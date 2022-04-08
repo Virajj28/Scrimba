@@ -61,21 +61,29 @@ align-self: flex-end;
   /* flex: 1 1 0 is down as*/
   /* flex: 1;  */
 
-  flex: 1 1 200px;
+  /* flex: 1 1 200px; */
 
   /* same as
   flex-grow: 1
   flex-shrink: 1
   flez-basis:200px
    */
+
+   order: 1;
 }
 
 .logout {
-  flex: 10 1 200px;
+  /* flex: 10 1 200px; */
 
   /* same as
   flex-grow: 10
   flex-shrink: 1
   flez-basis:200px
    */
+
+   order: 0
+}
+
+.search {
+  order: -1;
 }
