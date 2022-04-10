@@ -21,6 +21,8 @@ https://scrimba.com/allcourses
 <br>
 👥 Modern JS [https://scrimba.com/learn/es6] {High Priority}  
  From 20--28-03-2022, 12:18 am   
-<br>
 🧬 React - 11hrs {The Final Showdown}
  From 2-04-2022, 12:50 am
+ <br>
+❤️‍🔥 Python - 5hrs {DSA POV}
+From 10-04-2022, 11:35 pm
