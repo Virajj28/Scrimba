@@ -82,3 +82,14 @@ function Header() {
 ReactDOM.render(Header(), document.getElementById("root"))
 ```
 /// Header should in wrapped with tags <Header />
+
+
+//// Component structure should have same file name as component name. i.e
+import React from "react"
+export default function Header() {
+    return (
+        <header>
+            Hello World!
+        </header>
+    )
+}
