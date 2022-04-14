@@ -112,16 +112,7 @@ ReactDOM.render(<CustomComponent />, document.getElementById("root"))
 //Parent & Child Component
 import React from "react"
 import ReactDOM from "react-dom"
-
-function Header() {
-    return (
-        <header>
-            <nav>
-                <img src="./react-logo.png" width="40px" />
-            </nav>
-        </header>
-    )
-}
+import Header from "./Header"
 
 function Footer() {
     return (
