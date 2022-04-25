@@ -151,6 +151,7 @@ ReactDOM.render(<Page />, document.getElementById("root"))
 /////////////////////////////////////
 // AirBNB Clone
 import Contact from './Contact'
+import Card from './Card'
 
 function App() {
     return (
@@ -178,6 +179,14 @@ function App() {
                 name="Pumpkin"
                 phone="(0800) CAT KING"
                 email="pumpkin@scrimba.com"
+            />
+            <Card 
+                img="katie-zaferes.png"
+                rating="5.0"
+                reviewCount={6}
+                country="USA"
+                title="Life Lessons with Katie Zaferes"
+                price={136}
             />
         </div>
     )
