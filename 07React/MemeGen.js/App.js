@@ -5,6 +5,10 @@ import Meme from "./components/Meme"
  * Challenge: Build the Header component
  */
 export default function App() {
+
+    const result = React.useState("Yes")
+    console.log(result)
+
     function handleClick() {
         console.log("clicked")
     }
@@ -17,6 +21,7 @@ export default function App() {
         <div>
             <Header />  
             <Meme />
+            <h1>{result[0]}</h1>
             <div>
                 <img
                     src="https://picsum.photos/640/360" 
