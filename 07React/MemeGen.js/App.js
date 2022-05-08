@@ -6,8 +6,10 @@ import Meme from "./components/Meme"
  */
 export default function App() {
 
-    const result = React.useState("Yes")
-    console.log(result)
+    // const result = React.useState("Yes")
+    // console.log(result)
+    const [isImportant, setIsImportant] = React.useState('Yes')
+    console.log(isImportant)
 
     function handleClick() {
         console.log("clicked")
@@ -17,11 +19,16 @@ export default function App() {
         console.log("MouseOver")
     }
 
+    function handleClick() {
+        setIsImportant("No")
+    }
+
     return (
         <div>
             <Header />  
             <Meme />
-            <h1>{result[0]}</h1>
+            {/* <h1>{result[0]}</h1> */}
+            <h1>{isImportant}</h1>
             <div>
                 <img
                     src="https://picsum.photos/640/360" 
