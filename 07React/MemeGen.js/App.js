@@ -23,6 +23,17 @@ export default function App() {
         setIsImportant("No")
     }
 
+    // Counter app
+    const [count, setCount] = React.useState(0)
+
+    function add() {
+        setCount(count + 1)
+    }
+
+    function subtract() {
+        setCount(count - 1)
+    }
+
     return (
         <div>
             <Header />  
@@ -35,6 +46,10 @@ export default function App() {
                     onMouseOver={handleOnMouseOver} 
                 />
                 <button onClick={handleClick}>Click Me</button>
+            </div>
+            <div>
+                <h1>{count}</h1>
+                <button className="counter--plus" onClick={add}>+</button>
             </div>
         </div>
     )
